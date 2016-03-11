@@ -1,2 +1,2 @@
 # PersonalWebsite
-Personal website using RoR and Bootstrap
+I will be using RoR with Bootstrap to (hopefully) create a nice personal website.
