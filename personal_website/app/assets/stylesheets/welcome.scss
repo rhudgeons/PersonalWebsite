@@ -4,4 +4,27 @@
 
 body {
     background: url('black-and-white.jpg') no-repeat center center fixed;
+    padding-top: 70px;
+}
+
+.border-right {
+  border-right: 1px solid black;
+  padding: 5px;
+}
+
+.no-border {
+  padding: 5px;
+}
+
+.social-follow {
+  margin-top: 10px;
+}
+
+.view-instagram-button {
+  margin-bottom: 5px !important;
+}
+
+.profile-pic {
+  height: 90px;
+  width: 80px;
 }
