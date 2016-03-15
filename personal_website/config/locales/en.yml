@@ -20,4 +20,14 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  full_name: "Reace Hudgeons"
+  views:
+    layouts:
+      application:
+        welcome: "Welcome"
+        bio: "Bio"
+    welcome:
+      instagram:
+        follow: "Follow @texgonekc"
+      github:
+        follow: "Follow rhudgeons"

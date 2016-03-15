@@ -1,8 +1,8 @@
 <div>
-  <h1> <%= image_tag('profile-pic.jpg', class: 'img-circle profile-pic') %> Reace Hudgeons</h1>
-  <small class="border-right"> Software Engineer </small>
-  <small class="border-right"> Crossfit </small>
-  <small class="no-border"> Motorcycle Newbie </small>
+  <h1> <%= image_tag('profile-pic.jpg', class: 'img-circle profile-pic') %><%= t('full_name') %> </h1>
+  <small class="border-right"><%= t('views.welcome.index.software_engineer') %></small>
+  <small class="border-right"><%= t('views.welcome.index.crossfit') %></small>
+  <small class="no-border"><%= t('views.welcome.index.motorcycle_newbie') %></small>
 </div>
 
 <table class="social-follow">
