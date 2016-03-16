@@ -26,6 +26,7 @@ en:
       application:
         welcome: "Welcome"
         bio: "Bio"
+        timeline: "Timeline"
     welcome:
       instagram:
         follow: "Follow @texgonekc"
