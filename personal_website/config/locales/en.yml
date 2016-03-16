@@ -31,3 +31,17 @@ en:
         follow: "Follow @texgonekc"
       github:
         follow: "Follow rhudgeons"
+      twitter:
+        follow: "Follow @texgonekc"
+      index:
+        software_engineer: "Software Engineer"
+        crossfit: "Crossfit"
+        motorcycle_newbie: "Motorcycle Newbie"
+    bio:
+      index:
+        my_info: "My Info"
+        family: "Family"
+        growing_up: "Growing Up"
+        education: "Education"
+        software_engineer: "Software Engineer"
+        air_force: "Air Force"

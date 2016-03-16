@@ -1,0 +1,58 @@
+.info-pic {
+	height: 200px;
+	width: 180px;
+}
+
+.container-fluid {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.shadow-black {
+	text-shadow: 1px 1px 1px black;
+}
+
+.shadow-white {
+	text-shadow: 1px 1px 1px white;
+}
+
+.family {
+	background-image: url('family.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -300px;
+	color: white;
+}
+
+.growing-up {
+	background-image: url('baseball.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -300px;
+	color: white;
+}
+
+.arkansas {
+	background-image: url('arkansas.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: 0px -175px;
+	color: white;
+}
+
+.cerner {
+	background-image: url('cerner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -300px 0px;
+	background-color: white;
+}
+
+.air-force {
+	background-image: url('usaf.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -300px;
+}
+

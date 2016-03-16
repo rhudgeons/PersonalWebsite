@@ -18,15 +18,13 @@
       <%= link_to t('full_name'), "#", class: "navbar-brand", id: "logo-name" %>
       <div id="navbar" class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
-          <li><%= link_to t('views.layouts.application.welcome'), '#' %></li>
-          <li><%= link_to t('views.layouts.application.bio'), '#' %></li>
+          <li><%= link_to t('views.layouts.application.welcome'), root_url %></li>
+          <li><%= link_to t('views.layouts.application.bio'), {controller: "bio"} %></li>
         </ul>
       </div>
     </header>
 
-    <div class="container">
-      <%= yield %>
-    </div>
+  <%= yield %>
 
   <nav class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container">

@@ -1,12 +1,14 @@
-<div>
-  <h1> <%= image_tag('profile-pic.jpg', class: 'img-circle profile-pic') %><%= t('full_name') %> </h1>
-  <small class="border-right"><%= t('views.welcome.index.software_engineer') %></small>
-  <small class="border-right"><%= t('views.welcome.index.crossfit') %></small>
-  <small class="no-border"><%= t('views.welcome.index.motorcycle_newbie') %></small>
-</div>
+<div class="container">
+  <div>
+    <h1> <%= image_tag('profile-pic.jpg', class: 'img-circle profile-pic') %><%= t('full_name') %> </h1>
+    <small class="border-right"><%= t('views.welcome.index.software_engineer') %></small>
+    <small class="border-right"><%= t('views.welcome.index.crossfit') %></small>
+    <small class="no-border"><%= t('views.welcome.index.motorcycle_newbie') %></small>
+  </div>
 
-<table class="social-follow">
-  <tr><td><%= render 'follow_twitter' %></td></tr>
-  <tr><td><%= render 'view_instagram' %></td></tr>
-  <tr><td><%= render 'follow_github' %></td></tr>
-</table>
+  <table class="social-follow">
+    <tr><td><%= render 'follow_twitter' %></td></tr>
+    <tr><td><%= render 'follow_instagram' %></td></tr>
+    <tr><td><%= render 'follow_github' %></td></tr>
+  </table>
+</div>
