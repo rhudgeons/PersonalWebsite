@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+  	<tr>
+  	  <th>Ingredient</th>
+  	  <th>Amount</th>
+  	  <th>Measurement</th>
+  	</tr>
+  </thead>
+  <tbody>
+  <% recipe_ingredients.each do |ingredient| %>
+    <tr>
+      <td><%= Ingredient.find(ingredient.ingredient_id).name %></td>
+      <td><%= ingredient.amount %></td>
+      <td><%= ingredient.measurement %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

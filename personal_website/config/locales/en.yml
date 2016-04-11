@@ -27,6 +27,7 @@ en:
         welcome: "Welcome"
         bio: "Bio"
         timeline: "Timeline"
+        recipes: "Recipe of the Day"
     welcome:
       instagram:
         follow: "Follow @texgonekc"
